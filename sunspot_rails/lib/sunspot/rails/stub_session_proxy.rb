@@ -85,6 +85,10 @@ module Sunspot
           PaginatedCollection.new
         end
 
+        def groups
+          []
+        end
+
         def hits(options = {})
           PaginatedCollection.new
         end
